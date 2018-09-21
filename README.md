@@ -377,10 +377,8 @@ class Ship(sprite.Sprite):
 
 ## Frequency Ask Questions
 
-1. What is self in Python
-<br>
-The reason you need to use self. Is because Python does not use the @ syntax to refer to instance attributes. Python decided to do methods in a way that makes the instance to which the method belongs be passed automatically, but not received automatically: the first parameter of methods is the instance the method is called on. That makes methods entirely the same as functions, and leaves the actual name to use up to you (although self is the convention, and people will generally frown at you when you use something else.) self is not special to the code, it's just another object. 
-(https://pythontips.com/2013/08/07/the-self-variable-in-python-explained/)
+1. What is self in Python ? <br>
+The reason you need to use self. Is because Python does not use the @ syntax to refer to instance attributes. Python decided to do methods in a way that makes the instance to which the method belongs be passed automatically, but not received automatically: the first parameter of methods is the instance the method is called on. That makes methods entirely the same as functions, and leaves the actual name to use up to you (although self is the convention, and people will generally frown at you when you use something else.) self is not special to the code, it's just another object. (https://pythontips.com/2013/08/07/the-self-variable-in-python-explained/)
 
 2. What is a class in Python ? <br>
 Python is an object oriented programming language. Almost everything in Python is an object, with its properties and methods. A Class is like an object constructor, or a "blueprint" for creating objects.
