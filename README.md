@@ -26,7 +26,7 @@ pip install pygame
 python spaceinvaderv2.py
 ```
 
-## Download the artifacts from Google Drive 
+## Download the artefacts from Google Drive 
 
 1. Download all the assets files from the following link. (https://bit.ly/2paxaQG)
 2. Unzip all the folders from the zip file into the game project directory.
@@ -48,9 +48,9 @@ python spaceinvaderv2.py
     * spaceinvader.py
     * text.py
 
- 3. Under the <b>spaceinvader.py</b> python source code create a class, along with the initialization function as shown below. The best way to set custom mixer playback values is to call pygame.mixer.pre_init() before calling the top level pygame.init(). For backward compatibility argument values of zero is replaced with the startup defaults. e.g. frequency=22050, size=-16, channels=2, buffersize=4096
+ 3. Under the <b>spaceinvader.py</b> python source code creates a class, along with the initialization function as shown below. The best way to set custom mixer playback values is to call pygame.mixer.pre_init(). Before calling the top level pygame.init(). For backward compatibility argument values of zero is replaced with the startup defaults. e.g. frequency=22050, size=-16, channels=2, buffersize=4096
 
-    * Initalize the game engine
+    * Initialize the game engine
     * Set the screen resolution to 800 x 600
     * Load the background image to the screen game object 
 
@@ -115,7 +115,7 @@ python main.py
 
 <img src="./docs/Capture1.PNG" width="640" height="480"/>
 
-5. Under the spaceinvader.py source code load all the images into a list in python and also initailize the font used in the game. All th values in the IMG_NAMES must match the image files under the images sub-directory 
+5. Under the spaceinvader.py source code load all the images into a list in python and also initialize the font used in the game. All th values in the IMG_NAMES must match the image files under the images sub-directory 
 
 ```python
 FONT = "fonts/space_invaders.ttf"
@@ -133,7 +133,7 @@ def create_main_menu(self):
     self.enemy1 = transform.scale(self.enemy1, (40, 40))
     self.screen.blit(self.enemy1, (318, 270))
 ```
-6. Let's continue editing the spaceinvader.py source file. Under if block of the main screen lets implement all the reset function to initialize all the object and values to the original state.
+6. Let's continue editing the spaceinvader.py source file. Under if block of the main screen let's implement all the reset functions to initialize all the object and values to the original state.
 
 ```python
 def reset(self, score, lives, newGame=False):
@@ -157,7 +157,7 @@ self.clock.tick(60)
 
 <img src="./docs/Capture2.png" width="640" height="480"/>
 
-9. Amend the text.py source file with below codes. This is create an object to render text in pygame game engine.
+9. Amend the text.py source file with below codes. This creates an object to render text in pygame game engine.
 
 ```python
 from pygame import *
@@ -172,7 +172,7 @@ class Text(object):
         surface.blit(self.surface, self.rect)
 ```
 
-10. Under the reset function add a create_text function call 
+10. Under the reset function add a create_text function invocation. 
 
 ```python
 def reset(self, score, lives, newGame=False):
@@ -378,7 +378,7 @@ class Ship(sprite.Sprite):
 ## Frequently Ask Questions
 
 1. <strong>What is self in Python ?</strong> <br>
-The reason you need to use self. Is because Python does not use the @ syntax to refer to instance attributes. Python decided to do methods in a way that makes the instance to which the method belongs be passed automatically, but not received automatically: the first parameter of methods is the instance the method is called on. That makes methods entirely the same as functions, and leaves the actual name to use up to you (although self is the convention, and people will generally frown at you when you use something else.) self is not special to the code, it's just another object. (https://pythontips.com/2013/08/07/the-self-variable-in-python-explained/)
+The reason you need to use self. Is because Python does not use the @ syntax to refer to instance attributes. Python decided to do methods in a way that makes the instance to which the method belongs be passed automatically, but not received automatically: the first parameter of methods is the instance the method is called on. That makes methods entirely the same as functions, and leaves the actual name to use up to you (although self is the convention, and people will generally frown at you when you use something else.) self is not peculiar to the code, it's just another object. (https://pythontips.com/2013/08/07/the-self-variable-in-python-explained/)
 
 2. <strong>What is a class in Python ? </strong><br>
 Python is an object oriented programming language. Almost everything in Python is an object, with its properties and methods. A Class is like an object constructor, or a "blueprint" for creating objects.
