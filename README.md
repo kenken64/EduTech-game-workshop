@@ -386,7 +386,7 @@ Python is an object oriented programming language. Almost everything in Python i
 3. <strong>What Is Blitting in pygame? </strong><br>
 First, you need to realize what blitting is doing. Your screen is just a collection of pixels, and blitting is doing a complete copy of one set of pixels onto another. For example, you can have a surface with an image that you loaded from the hard drive, and can display it multiple times on the screen in different positions by blitting that surface on top of the screen surface multiple times.
 
-4. <strong>What does clock.tick does? </strong><br>
+4. <strong>What does clock.tick do in Pygame? </strong><br>
 FPS, Frames Per Second, is the number of frames shown per unit of time.
 1 / FPS is the amount of time should pass between each frame. Tick is just a measure of time in PyGame. clock.tick(60) means that for every second at most 60 frames should pass.
 
