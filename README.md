@@ -18,6 +18,12 @@
 pip install pygame
 ```
 
+## Run the actual fully functional game
+
+```bash
+python spaceinvaderv2.py
+```
+
 ## Download the artifacts from Google Drive 
 
 1. Download all the assets files from the following link. (https://bit.ly/2paxaQG)
