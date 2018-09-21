@@ -1,6 +1,6 @@
 # Space Invaders
 
-<img src="./docs/capture1.gif"/>
+<img src="./docs/capture1.gif" width="640" height="480"/>
 
 [![Language](https://img.shields.io/badge/language-python-blue.svg?style=flat
 )](https://www.python.org)
@@ -113,7 +113,7 @@ class SpaceInvaders(object):
 python main.py
 ```
 
-<img src="./docs/Capture1.PNG"/>
+<img src="./docs/Capture1.PNG" width="640" height="480"/>
 
 5. Under the spaceinvader.py source code load all the images into a list in python and also initailize the font used in the game. All th values in the IMG_NAMES must match the image files under the images sub-directory 
 
@@ -155,7 +155,7 @@ display.update()
 self.clock.tick(60)
 ```
 
-<img src="./docs/Capture2.png"/>
+<img src="./docs/Capture2.png" width="640" height="480"/>
 
 9. Amend the text.py source file with below codes. This is create an object to render text in pygame game engine.
 
@@ -373,7 +373,7 @@ class Ship(sprite.Sprite):
         game.blit(self.image, self.rect)
 ```
 
-<img src="./docs/Capture3.png"/>
+<img src="./docs/Capture3.png" width="640" height="480"/>
 
 ## Frequency Ask Questions
 
