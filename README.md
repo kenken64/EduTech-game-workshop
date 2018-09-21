@@ -375,7 +375,7 @@ class Ship(sprite.Sprite):
 
 <img src="./docs/Capture3.png" width="640" height="480"/>
 
-## Frequency Ask Questions
+## Frequently Ask Questions
 
 1. <strong>What is self in Python ?</strong> <br>
 The reason you need to use self. Is because Python does not use the @ syntax to refer to instance attributes. Python decided to do methods in a way that makes the instance to which the method belongs be passed automatically, but not received automatically: the first parameter of methods is the instance the method is called on. That makes methods entirely the same as functions, and leaves the actual name to use up to you (although self is the convention, and people will generally frown at you when you use something else.) self is not special to the code, it's just another object. (https://pythontips.com/2013/08/07/the-self-variable-in-python-explained/)
