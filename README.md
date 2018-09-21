@@ -377,23 +377,23 @@ class Ship(sprite.Sprite):
 
 ## Frequency Ask Questions
 
-1. What is self in Python ? <br>
+1. <strong>What is self in Python ?</strong> <br>
 The reason you need to use self. Is because Python does not use the @ syntax to refer to instance attributes. Python decided to do methods in a way that makes the instance to which the method belongs be passed automatically, but not received automatically: the first parameter of methods is the instance the method is called on. That makes methods entirely the same as functions, and leaves the actual name to use up to you (although self is the convention, and people will generally frown at you when you use something else.) self is not special to the code, it's just another object. (https://pythontips.com/2013/08/07/the-self-variable-in-python-explained/)
 
-2. What is a class in Python ? <br>
+2. <strong>What is a class in Python ? </strong><br>
 Python is an object oriented programming language. Almost everything in Python is an object, with its properties and methods. A Class is like an object constructor, or a "blueprint" for creating objects.
 
-3. What Is Blitting? <br>
+3. <strong>What Is Blitting in pygame? </strong><br>
 First, you need to realize what blitting is doing. Your screen is just a collection of pixels, and blitting is doing a complete copy of one set of pixels onto another. For example, you can have a surface with an image that you loaded from the hard drive, and can display it multiple times on the screen in different positions by blitting that surface on top of the screen surface multiple times.
 
-4. What does clock.tick does? <br>
+4. <strong>What does clock.tick does? </strong><br>
 FPS, Frames Per Second, is the number of frames shown per unit of time.
 1 / FPS is the amount of time should pass between each frame. Tick is just a measure of time in PyGame. clock.tick(60) means that for every second at most 60 frames should pass.
 
 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4ueJt2iVXNqonMeGgebRF53Ni3HC4S1M1SPqLawdBkp_08x9L"/>
 
-5. What is a python tuple ? <br>
+5. <strong>What is a python tuple ? </strong><br>
 A tuple is a collection which is ordered and unchangeable. In Python tuples are written with round brackets. Please look at the colour declaration example WHITE = (255, 255, 255)
 
-6. What is a screen clock in pygame? <br>
+6. <strong>What is a screen clock in pygame? </strong><br>
 This is an object to help you to keep track of time in pygame
