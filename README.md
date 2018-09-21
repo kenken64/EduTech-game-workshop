@@ -148,7 +148,7 @@ display.update()
 self.clock.tick(60)
 ```
 
-<img src="./docs/Capture2.PNG"/>
+<img src="./docs/Capture2.png"/>
 
 9. Amend the text.py source file with below codes. This is create an object to render text in pygame game engine.
 
@@ -366,7 +366,7 @@ class Ship(sprite.Sprite):
         game.blit(self.image, self.rect)
 ```
 
-<img src="./docs/Capture3.PNG"/>
+<img src="./docs/Capture3.png"/>
 
 ## Frequency Ask Questions
 
