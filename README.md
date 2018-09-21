@@ -20,8 +20,7 @@ pip install pygame
 
 ## Download the artifacts from Google Drive 
 
-1. Download all the assets files from this [![link](https://bit.ly/2paxaQG
-)](https://bit.ly/2paxaQG)
+1. Download all the assets files from the following link. (https://bit.ly/2paxaQG)
 2. Unzip all the folders from the zip file into the game project directory.
 
 ## Development logbook - Round 1 (Preparation)
