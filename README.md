@@ -155,7 +155,7 @@ display.update()
 self.clock.tick(60)
 ```
 
-<img src="./docs/Capture2.png" width="640" height="480"/>
+<img src="./docs/Capture2.PNG" width="640" height="480"/>
 
 9. Amend the text.py source file with below codes. This creates an object to render text in pygame game engine.
 
